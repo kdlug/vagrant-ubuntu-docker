@@ -89,3 +89,15 @@ Remove VM from Virtualbox
 ```bash
 vboxmanage unregistervm [vm-name]
 ```
+
+## Troubleshooting
+`vagrant ssh` causes the following error:
+```txt
+ssh_exchange_identification: read: Software caused connection
+```
+
+Try to run: 
+```bash
+vagrant reload
+```
+
